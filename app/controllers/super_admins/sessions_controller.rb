@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class SuperAdmins::SessionsController < Devise::SessionsController
+  layout "super_admin_devise"
   # before_action :configure_sign_in_params, only: [:create]
 
   # GET /resource/sign_in
