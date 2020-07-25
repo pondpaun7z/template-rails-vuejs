@@ -1,3 +1,10 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  devise_for :super_admins, path: "admin", controllers: {
+    sessions: "super_admins/sessions"
+  }
+  namespace :admin do
+    resources :overviews, only: %i[index]
+
+    root to: "overviews#index"
+  end
 end

@@ -20,6 +20,7 @@ gem "paranoia" # Soft Delete
 # Authentication & Autorization
 gem "cancancan"
 gem "devise"
+gem "rolify"
 
 # Admin panel
 gem "administrate"
@@ -30,12 +31,15 @@ gem "administrate-field-enum"
 gem "goldiloader"
 gem "kaminari" # Pagination
 gem "ransack" # Search
-gem "rails-i18n", "~> 6.0.0" # Localization
 gem "strong_migrations" # Safty migration
 gem "view_component"
 gem "activerecord-import"
 gem "olive_branch"
 gem "figaro"
+
+# Localization
+gem "rails-i18n", "~> 6.0.0"
+gem "devise-i18n"
 
 group :development, :test do
   # Degybber
