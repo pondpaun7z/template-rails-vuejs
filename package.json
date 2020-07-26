@@ -6,16 +6,28 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.2.2",
+    "@types/node": "^14.0.26",
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
+    "ts-loader": "^8.0.1",
     "turbolinks": "^5.2.0",
+    "typescript": "^3.9.7",
+    "fibers": "^5.0.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
     "vue": "^2.6.11",
+    "vue-class-component": "^7.2.5",
     "vue-loader": "^15.9.3",
-    "vue-template-compiler": "^2.6.11"
+    "vue-property-decorator": "^9.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "vue-turbolinks": "^2.1.0",
+    "vuetify": "^2.3.6",
+    "vuex-class": "^0.3.2"
   },
   "version": "0.1.0",
   "devDependencies": {
+    "deepmerge": "^4.2.2",
     "webpack-dev-server": "^3.11.0"
   }
 }
